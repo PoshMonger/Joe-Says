@@ -9,7 +9,10 @@ simon-says game
 
 How to play:
 
+
 1. Power On
 2.Press Start
 2. Match the pattern
 3. Toggle strict mode for more difficulty
+
+<img width="809" alt="JOE_SAYS" src="https://user-images.githubusercontent.com/85910267/180906877-be36e81b-4226-446d-9e72-9119323ae3f9.png">
