@@ -1,3 +1,8 @@
+
+(()=>{
+
+
+
 let computer_sequence = [];
 let player_sequence = [];
 let on;
@@ -260,7 +265,7 @@ if(player_sequence[player_sequence.length-1] != computer_sequence[player_sequenc
 
 
     /*Win Conditions */
-    if (player_sequence.length == 12 & player_sequence[turn-1] == computer_sequence[turn-1]) {
+    if (player_sequence.length == 20 & player_sequence[turn-1] == computer_sequence[turn-1]) {
 
         win = true;
         win_flash();
@@ -487,4 +492,4 @@ function bottom_right_input() {
 }
 
 
-
+})()
