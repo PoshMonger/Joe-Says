@@ -24,6 +24,10 @@ const bottom_left = document.getElementById('bottom_left');
 const bottom_right = document.getElementById('bottom_right');
 const simon_board = document.getElementById('simon_board');
 const body = document.querySelector('body')
+const dark_button = document.getElementById('dark_button')
+const light_button = document.getElementById('light_button')
+
+
 
 function applycolor(){
     if(light_mode == true){
@@ -58,6 +62,8 @@ light_mode = false
     applycolor();
 }
 
+dark_button.addEventListener('click', darkmode) 
+light_button.addEventListener('click',lightmode)   
 applycolor()
 
 const start_button = document.getElementById('start_button');
